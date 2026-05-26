@@ -16,7 +16,7 @@ Before starting, ensure you have access to the following:
 - IBM ACE Toolkit - [Download and installation guide](https://www.ibm.com/docs/en/app-connect/13.0.x?topic=gsace-download-app-connect-enterprise-evaluation-edition-get-started)
 - IBM ACE runtime on Linux VM - [Installation instructions](https://www.ibm.com/docs/en/app-connect/13.0.x?topic=software-installing-linux)
 - IBM WebMethods Hybrid Integration (IWHI) instance
-- ACE Developer Bob mode- We have already created a custom [ACE developer mode](https://github.com/awasthan/ibm-ace-bob-mode) to complete this tutorial. You can further customize this mode to align with your enterprise best practices and guidelines.
+- ACE Developer Bob mode- We have already created a custom [ACE developer mode](https://github.com/ibm-self-serve-assets/ibm-ace-bob-mode) to complete this tutorial. You can further customize this mode to align with your enterprise best practices and guidelines.
 - ace-bob skill: Doenload ace-bob skill from [here](https://github.com/ot4i/ace-bob)
 
 
@@ -46,7 +46,7 @@ In this step, you will create an ACE Integration server on a Linux VM and regist
 
 ### Create ACE Integration server on a Linux VM
 
-For detailed instructions on how to install ACE and create integration server, follow the product documentation [here] (https://www.ibm.com/docs/en/app-connect/13.0.x?topic=enterprise-installing-app-connect)
+For detailed instructions on how to install ACE and create integration server, follow the product documentation [here](https://www.ibm.com/docs/en/app-connect/13.0.x?topic=enterprise-installing-app-connect)
 
 This step assumes that you have a Linux VM with IBM ACE runtime installed. If you don't have a Linux VM with IBM ACE runtime installed, you can follow the [installation instructions](https://www.ibm.com/docs/en/app-connect/13.0.x?topic=software-installing-linux).
 
@@ -118,7 +118,7 @@ Now you are all set to manage this ACE integration server and deployed integrati
 
 ## Step 2. Import ACE developer mode
 
-Download this custom ace-developer mode from [here] (https://github.com/awasthan/ibm-ace-bob-mode)
+Download this custom ace-developer mode from [here](https://github.com/ibm-self-serve-assets/ibm-ace-bob-mode)
 
 Copy the '.bob' folder into our IBM ACE workspace where we intend to create ACE projects. This makes the ACE Developer mode locally available in that specific workspace. However you can make it globally available by changing the mode scope to global and moving the rule and skill directories into the '.bob' in your home directory. Read more about Bob modes and skills [here](https://bob.ibm.com/docs/ide/configuration/custom-modes).
 
