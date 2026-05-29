@@ -186,6 +186,7 @@ Let us say you want to create a REST API in IBM ACE to check given cities' curre
     curl -X GET "http://api.weatherapi.com/v1/alerts.json?q=London&key=8fdf10a32b9e44ca93633906260605"
     curl -X GET "http://api.weatherapi.com/v1/current.json?q=London&key=8fdf10a32b9e44ca93633906260605"
     - It returns the json response as is what it received from the backed weatherapi
+    Build a BAR file and deploy & test on local independent integration server on admin port 7600
     ```
 
 
